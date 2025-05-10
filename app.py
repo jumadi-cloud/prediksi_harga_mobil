@@ -28,7 +28,7 @@ if selected == "Prediksi":
     tahun = st.number_input('Input Tahun Mobil', min_value=2005, max_value=2025, step=1)
     km_clean = st.number_input('Input Kilometer Mobil (km)', min_value=0)   
     brand = st.number_input('Input Kode Brand Mobil', min_value=0, max_value=26, step=1)
-    with st.expander("**klik untuk membuka daftar kode Brand Mobil**"):
+    with st.expander("**klik untuk melihat daftar kode Brand Mobil**"):
         st.write(""" Audi: 0, BMW: 1, BYD: 2, Chery: 3, Chevrolet: 4, Daihatsu: 5, Datsun: 6,
         Ferrari: 7, Ford: 8, GWM: 9, Honda: 10, Hyundai: 11, Jeep: 12, KIA: 13,
         Land: 14, Lexus: 15, MG: 16, MINI: 17, Mazda: 18, Mercedes-Benz: 19,
