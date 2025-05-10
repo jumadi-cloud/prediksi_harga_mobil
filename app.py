@@ -11,7 +11,7 @@ st.set_page_config(
 # Navigasi
 with st.sidebar:
         selected = option_menu(
-             menu_title="Pilih", 
+             menu_title="Pilih Menu", 
              options=["Prediksi", "test"], 
              icons=['house', "list-task"], 
              menu_icon="cast", 
